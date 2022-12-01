@@ -1,5 +1,4 @@
-let studentName : string = "Ibrahim Hossain";
-let studentAge : number =12;
+import {studentName, studentAge} from'./student';
 
 function displayInfo(): void {
     console.log(`${studentName}, ${studentAge}`)
